@@ -1,0 +1,112 @@
+# Problem-1: Design & create an online store for Products(name, price)
+
+# class Product:
+#     def __init__(self, name, price):
+#         self.name=name
+#         self.price=price
+
+#     def get_info(self): #instance method
+#         print(f"price of {self.name} is Rs.{self.price}")   
+
+# p1=Product("phone", 10_000)
+# p2=Product("laptop", 50_000)
+# p3=Product("pen", 10)
+# p1.get_info()
+
+
+
+
+
+#Problem-2: Track toatal product being created.
+# class Product:
+#     count=0
+#     def __init__(self, name, price):
+#         self.name=name
+#         self.price=price
+#         Product.count +=1
+    
+#     def get_info(self):
+#         print(f"price of {self.name} is Rs.{self.price}")
+
+#     @classmethod
+#     def get_count(cls):
+#         print(f"total products in store = {cls.count}")
+
+
+# p1 = Product("phone", 10_000)
+# p2 = Product("LAPTOP", 90_000)
+# p1 = Product("pen", 10)
+
+# Product.get_count()
+
+
+
+
+
+# Create a static method to calculate discount on each product based on a % parameter
+
+class Product:
+    count=0
+    def __init__(self, name, price):
+        self.name=name
+        self.price=price
+        Product.count +=1
+    
+    def get_info(self):
+        print(f"price of {self.name} is Rs.{self.price}")
+
+    @classmethod
+    def get_count(cls):
+        print(f"total products in store = {cls.count}")
+
+    @staticmethod
+    def calc_discount(price, discount):
+        print(f"discount price = {price -(price*discount/100)}")
+
+
+p1 = Product("phone", 10_000)
+p2 = Product("LAPTOP", 90_000)
+p1 = Product("pen", 10)
+
+p1.calc_discount(10_000, 12)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
