@@ -1,0 +1,21 @@
+print('''
+      7834786ye7ryewiuf
+      fsyasdfudsfas
+      dsfjbdsfhiadsjbfadsj
+      ghughuieghfiuofghadsiou
+      sufgdsiuyfdsfdsfd
+      dsfhdsgdsyhfdsf
+      sdfdsfds
+      f
+      asf
+      dsf
+      adsf
+      adsfadsfdsa
+      fds
+      f
+      dsfds
+      f
+      dsf
+      ds
+      f
+      ds ''')
